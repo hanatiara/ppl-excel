@@ -42,7 +42,6 @@ class c_export extends BaseController
         
         $pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
 
-
         $pdf->AddPage();
         $pdf->writeHTMLCell(0, 0, '', '', $html, 0, 1, 0, true, '', true);
         $this->response->setContentType('application/pdf');

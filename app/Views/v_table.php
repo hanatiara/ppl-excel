@@ -1,6 +1,6 @@
 <div class="h-100">
 <div class="container w-100">
-<table border="1" class="table table-striped">
+<table border="1" cellpadding="2" cellspacing="2" class="table table-striped">
         <tr>
             <th>Id Barang</th>
             <th>Nama Barang</th>
