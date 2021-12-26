@@ -45,7 +45,8 @@ class c_export extends BaseController
         $pdf->AddPage();
         $pdf->writeHTMLCell(0, 0, '', '', $html, 0, 1, 0, true, '', true);
         $this->response->setContentType('application/pdf');
-        $pdf->Output('data-barang.pdf', 'I');
+        $date = date('d-m-y');
+        $pdf->Output($date.'-data-barang.pdf', 'I');
 
     }
 }

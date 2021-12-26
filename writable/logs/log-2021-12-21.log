@@ -1,0 +1,23 @@
+CRITICAL - 2021-12-21 04:23:47 --> Undefined array key "id"
+#0 D:\xampp\htdocs\ppl-excel\app\Controllers\c_export.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 12)
+#1 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_export->exportPDF()
+#2 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_export))
+#3 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-excel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-21 06:57:26 --> foreach() argument must be of type array|object, int given
+#0 D:\xampp\htdocs\ppl-excel\vendor\tecnickcom\tcpdf\tcpdf.php(5669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 5669)
+#1 D:\xampp\htdocs\ppl-excel\vendor\tecnickcom\tcpdf\tcpdf.php(5301): TCPDF->getCellBorder(15, -2.5, 180.00014444444, 15, 10)
+#2 D:\xampp\htdocs\ppl-excel\vendor\tecnickcom\tcpdf\tcpdf.php(5114): TCPDF->getCellCode(180.00014444444, 15, 'TOKO ALAT TULIS', 10, false, 'C', 0, '', 0, true, 'M', 'M')
+#3 D:\xampp\htdocs\ppl-excel\app\Controllers\c_export.php(14): TCPDF->Cell(0, 15, 'TOKO ALAT TULIS', 10, false, 'C', 0, '', 0, false, 'M', 'M')
+#4 D:\xampp\htdocs\ppl-excel\vendor\tecnickcom\tcpdf\tcpdf.php(3605): App\Controllers\PDF->header()
+#5 D:\xampp\htdocs\ppl-excel\vendor\tecnickcom\tcpdf\tcpdf.php(3272): TCPDF->setHeader()
+#6 D:\xampp\htdocs\ppl-excel\vendor\tecnickcom\tcpdf\tcpdf.php(3184): TCPDF->startPage('', '', false)
+#7 D:\xampp\htdocs\ppl-excel\app\Controllers\c_export.php(41): TCPDF->AddPage()
+#8 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_export->exportPDF()
+#9 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_export))
+#10 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-excel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2021-12-23 06:15:45 --> Undefined variable $data
+#0 D:\xampp\htdocs\ppl-excel\app\Views\v_table.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 10)
+#1 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('v_table', Array, true)
+#4 D:\xampp\htdocs\ppl-excel\app\Views\v_export.php(4): view('v_table')
+#5 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('v_export', Array, true)
+#8 D:\xampp\htdocs\ppl-excel\app\Controllers\c_export.php(22): view('v_export')
+#9 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_export->index()
+#10 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_export))
+#11 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\ppl-excel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\ppl-excel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#14 {main}
